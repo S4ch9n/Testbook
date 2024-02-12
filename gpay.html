@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout of GPay</title>
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0px;
+            padding:0px;
+        }
+        .all{
+            /* width:60%;
+            display: grid;
+            place-content: center; */
+            /* grid-auto-flow: 100px; */
+            background-image: url(https://media.istockphoto.com/id/610855984/vector/abstract-background.jpg?s=612x612&w=0&k=20&c=LCD4gd4Wk1ffPJhIvC51Y2b96KgF29rkMeB1b3fNqO4=);
+           /* margin-right: 700px; */
+           height: 250px;
+        
+        }
+        .marr{
+            margin-left:20px;
+            margin-right: 20px;
+        }
+        .navv{
+            display: flex;
+            justify-content: space-between;
+
+           
+        }
+        input{
+            width:1000px;
+            border-radius: 50px;
+            padding: 10px;
+            margin:10px;
+        }
+        .left-icon{
+            font-size: 30px;
+            margin:10px 10px 10px 10px;
+            color:white;
+            background-color: brown;
+            border-radius: 50%;width:50px;
+        }
+        #ic{
+            text-align: center;
+        }
+        .secc{
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto;
+            gap:10px;
+        }
+        .sec{
+            display: grid;
+            gap:10px;
+        }
+      .left{
+        font-size: 30px;
+        color:white
+      }
+      .bottom{
+        color:blue;
+        font-size: 40px;
+        margin-top: 20px;
+      }
+      .sec{
+        position: relative;
+      }
+      .right{
+        font-size: 100px;
+        position: absolute;
+        left: 500px;
+        bottom: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      .main{
+        background-color:black;
+        margin-top: 0px;
+        color: white;
+
+      }
+      table{
+        width: 100%;
+        margin-left: 150px;
+      }
+      td{
+        padding: 25px;
+      }
+      .tablee{
+        display: grid;
+    
+      }
+    
+     
+      
+    
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div class="marr">
+    <nav>
+        <div class="navv">
+            <div class="search"><input type="text"placeholder="Pay by your name or phone number"></div>
+            <div class="left-icon"><center>S</center></div>
+        </div>
+    </nav>
+    <seciton>
+       <div class="sec">
+        <div class="left">Unlimited cashback<br>directly into your card</div>
+        <div class="bottom">Get ACE credit card </div>
+        <div class="right">Digital Pay</div>
+       
+       </div>
+    </seciton>
+    </div>
+    </div>
+    <div class="main">
+        <div class="tablee">
+            <table>
+                <tr>
+                    <td>Scan any<br>
+                    QR code</td>
+                    <td>Pay <br>contact</td>
+                    <td>Pay phone <br>number</td>
+                    <td>Bank <br>trasnfer</td>
+                </tr>
+                <tr>
+                    <td>Pay UPi ID <br>or number</td>
+                    <td>Self <br>transfer</td>
+                    <td>Pay<br>bills</td>
+                    <td>Mobile<br>recharge</td>
+                </tr>
+                <tr class="centeer">
+                    
+                    <td colspan="5"><center>UPI ID: abcdef123@okicic</center></td>
+                
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
